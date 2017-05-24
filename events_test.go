@@ -1,8 +1,6 @@
 package main_test
 
 import (
-	. "banku"
-
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
