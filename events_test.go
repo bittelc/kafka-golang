@@ -1,5 +1,12 @@
 package main_test
 
+import (
+	. "banku"
+
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
+)
+
 var _ = Describe("Event", func() {
 	Describe("NewCreateAccountEvent", func() {
 		It("can create a create account event", func() {
